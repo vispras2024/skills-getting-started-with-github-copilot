@@ -142,3 +142,32 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 10px;
+  padding: 10px 0 0 0;
+  border-top: 1px solid #eee;
+}
+
+.participants-list {
+  list-style-type: disc;
+  margin: 8px 0 0 20px;
+  padding: 0;
+}
+
+.participant-pill {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.97em;
+  margin-bottom: 3px;
+  border: 1px solid #90caf9;
+}
+
+.no-participants {
+  color: #888;
+  font-style: italic;
+  margin-left: 5px;
+}
